@@ -168,6 +168,10 @@ const a = ('impossible' as any) as Point
 type Method = "GET" | "POST" | "HEAD"
 type Level = 1 | 2 | 3
 
+// const 声明的 number , string 常量，其类型为字面量类型
+const constStr = 'hello'
+const constNum = 123
+
 // const method: Method = "PUT" // error
 
 
